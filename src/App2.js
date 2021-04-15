@@ -20,15 +20,24 @@ class App2 extends React.Component {
     preSeconds: 0,
     preMinutes: 0,
     lastTime: "",
+    milisecunds: 0,
+    background: "ff006e"
   };
+
+
 
   time = () => {
     this.setState({
       actualTime: this.state.actualTime + 1,
-      secunds: this.state.actualTime,
-      minutes: parseInt(this.state.actualTime / 60),
+      
     });
 
+    this.setState({
+        secunds: this.state.actualTime,
+        minutes: parseInt(this.state.actualTime / 60),
+        background: `ff${parseInt(Math.random()*99).toString(16)}6e`
+    })
+console.log(this.state.background);
     if (this.state.secunds < 10) {
       this.setState({
         preSeconds: `0`,
@@ -36,10 +45,11 @@ class App2 extends React.Component {
     } else if (this.state.secunds >= 10) {
       this.setState({
         preSeconds: ``,
+        
       });
     }
 
-    if (this.state.actualTime > 59) {
+    if (this.state.actualTime > 60) {
       this.setState({
         minutes: parseInt(this.state.actualTime / 60),
         secunds: this.state.actualTime - this.state.minutes * 60,
@@ -146,7 +156,9 @@ class App2 extends React.Component {
             transform: `rotateY(0deg) rotate(${this.state.actualTime * 3}deg)`,
           }}
         ></div>
-        <div className="strip c">
+        <div className="strip c" 
+        >
+            
           {this.state.lastTime === "" ? (
             <div className="mainTitle">neon stopwatch</div>
           ) : (

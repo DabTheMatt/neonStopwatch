@@ -157,7 +157,7 @@ body.noscroll{
     font-size: 3vw;
     text-shadow: 3px 3px black;
     color: white;
-    background: #ff006e;
+    background:inherit;
     border: none;
     outline: none
 }
