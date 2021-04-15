@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/DabTheMatt/neonStopwatch/static/css/main.4f8738af.chunk.css",
-    "main.js": "/DabTheMatt/neonStopwatch/static/js/main.c1da850b.chunk.js",
-    "main.js.map": "/DabTheMatt/neonStopwatch/static/js/main.c1da850b.chunk.js.map",
-    "runtime-main.js": "/DabTheMatt/neonStopwatch/static/js/runtime-main.834d195c.js",
-    "runtime-main.js.map": "/DabTheMatt/neonStopwatch/static/js/runtime-main.834d195c.js.map",
-    "static/js/2.2b1ffa71.chunk.js": "/DabTheMatt/neonStopwatch/static/js/2.2b1ffa71.chunk.js",
-    "static/js/2.2b1ffa71.chunk.js.map": "/DabTheMatt/neonStopwatch/static/js/2.2b1ffa71.chunk.js.map",
-    "static/js/3.9efca4e2.chunk.js": "/DabTheMatt/neonStopwatch/static/js/3.9efca4e2.chunk.js",
-    "static/js/3.9efca4e2.chunk.js.map": "/DabTheMatt/neonStopwatch/static/js/3.9efca4e2.chunk.js.map",
-    "index.html": "/DabTheMatt/neonStopwatch/index.html",
-    "static/css/main.4f8738af.chunk.css.map": "/DabTheMatt/neonStopwatch/static/css/main.4f8738af.chunk.css.map",
-    "static/js/2.2b1ffa71.chunk.js.LICENSE.txt": "/DabTheMatt/neonStopwatch/static/js/2.2b1ffa71.chunk.js.LICENSE.txt"
+    "main.css": "/neonStopwatch/static/css/main.4f8738af.chunk.css",
+    "main.js": "/neonStopwatch/static/js/main.c1da850b.chunk.js",
+    "main.js.map": "/neonStopwatch/static/js/main.c1da850b.chunk.js.map",
+    "runtime-main.js": "/neonStopwatch/static/js/runtime-main.82a8ecb2.js",
+    "runtime-main.js.map": "/neonStopwatch/static/js/runtime-main.82a8ecb2.js.map",
+    "static/js/2.2b1ffa71.chunk.js": "/neonStopwatch/static/js/2.2b1ffa71.chunk.js",
+    "static/js/2.2b1ffa71.chunk.js.map": "/neonStopwatch/static/js/2.2b1ffa71.chunk.js.map",
+    "static/js/3.9efca4e2.chunk.js": "/neonStopwatch/static/js/3.9efca4e2.chunk.js",
+    "static/js/3.9efca4e2.chunk.js.map": "/neonStopwatch/static/js/3.9efca4e2.chunk.js.map",
+    "index.html": "/neonStopwatch/index.html",
+    "static/css/main.4f8738af.chunk.css.map": "/neonStopwatch/static/css/main.4f8738af.chunk.css.map",
+    "static/js/2.2b1ffa71.chunk.js.LICENSE.txt": "/neonStopwatch/static/js/2.2b1ffa71.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.834d195c.js",
+    "static/js/runtime-main.82a8ecb2.js",
     "static/js/2.2b1ffa71.chunk.js",
     "static/css/main.4f8738af.chunk.css",
     "static/js/main.c1da850b.chunk.js"
